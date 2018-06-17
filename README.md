@@ -1,4 +1,4 @@
-[image1]: ./runs/1528867024.4458013/um_000003.png "1"
+[image1]: ./runs/1528867024.4458013/uu_000007.png "1"
 [image2]: ./runs/1528867024.4458013/um_000005.png "2"
 [image3]: ./runs/1528867024.4458013/um_000030.png "3"
 [image4]: ./runs/1528867024.4458013/um_000083.png "4"
@@ -24,7 +24,7 @@ Following points are worth noting:
 4. Ran the Model training with Adam Optimizer and inference using AWS GPU.
 
 
-##### Run
+### Run
 
 Following are the dependencies:
 
@@ -34,9 +34,11 @@ Following are the dependencies:
 - [SciPy](https://www.scipy.org/)
 
 Ran the following command to run the project:
+
 ```
 python main.py
 ```
+
 
 This creates an output folder '[runs/1528867024.4458013](https://github.com/MyCodeBits/Term3-Udacity-CarND-Semantic-Segmentation/blob/master/runs/1528867024.4458013/)' which has 291 images having their road pixels colored/tagged <span style="color:green">GREEN<em></em></span>.
 
@@ -59,7 +61,7 @@ This creates an output folder '[runs/1528867024.4458013](https://github.com/MyCo
 [um_000075.png](./runs/1528867024.4458013/um_000075.png)
 ![alt text][image5]
 
-[uu_000058.png](./runs/1528867024.4458013/uu_000058.png) 
+[uu_000058.png](./runs/1528867024.4458013/uu_000058.png)
 ![alt text][image6]
 
 [uu_000094.png](./runs/1528867024.4458013/uu_000094.png)
@@ -111,11 +113,6 @@ Training NN ...
 EPOCH No. 1 ...
 Training Loss: = 1.653
 Training Loss: = 9.652
-Training Loss: = 1.124
-Training Loss: = 0.702
-Training Loss: = 0.662
-Training Loss: = 0.665
-Training Loss: = 0.648
 ....
 ....
 ....
@@ -125,20 +122,7 @@ Training Loss: = 0.232
 Training Loss: = 0.199
 Training Loss: = 0.138
 Training Loss: = 0.164
-Training Loss: = 0.111
-Training Loss: = 0.183
-Training Loss: = 0.136
-Training Loss: = 0.139
-....
-....
-....
-....
-EPOCH No. 12 ...
-Training Loss: = 0.063
-Training Loss: = 0.047
-Training Loss: = 0.072
-Training Loss: = 0.064
-Training Loss: = 0.044
+
 ....
 ....
 ....
@@ -148,8 +132,6 @@ Training Loss: = 0.073
 Training Loss: = 0.052
 Training Loss: = 0.312
 Training Loss: = 0.055
-Training Loss: = 0.092
-Training Loss: = 0.129
 ....
 ....
 ....
@@ -159,9 +141,7 @@ Training Loss: = 0.026
 Training Loss: = 0.029
 Training Loss: = 0.020
 Training Loss: = 0.023
-Training Loss: = 0.025
-Training Loss: = 0.028
-Training Loss: = 0.036
+....
 ....
 ....
 ....
@@ -180,11 +160,11 @@ Training Loss: = 0.031
  - Does the project optimize the neural network? **Yes**
  - Does the project train the neural network? **Yes. Loss is already shown above in RUN section.**
  - Does the project train the model correctly? **Yes, it does.**
- - Does the project use reasonable hyperparameters? **Yes,
+ - Does the project use reasonable hyperparameters? **Yes,**
       - keep_prob: 0.5
       - epochs : 50
       - batch size : 5, and
-      - learning rate : 0.5.**
+      - learning rate : 0.5.
  - Does the project correctly label the road? **Yes**
 
 
